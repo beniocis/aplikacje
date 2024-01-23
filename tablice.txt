@@ -1,0 +1,42 @@
+Kolejka FiFo (First in First out) mechanizm obsługi danych polegający na tym że dane są obsługiwane w kolejności 
+
+<script>
+    var kolejka = [];
+    kolejka.push("jeden");
+    kolejka.push("dwa");
+    kolejka.push("trzy");
+    document.write('kolejka zawiera:' +kolejka+"<br>");
+    let usuniety=kolejka.schift();
+    document.write('usuniety element:' + usuniety+"<br>");
+    document.write('teraz kolejka zawiera:' +kolejka+"<br>");
+</script>
+
+STOS-LiFo przedstawia obsługe danych według zasady last in first out 
+<script>
+    var stos = [];
+    stos.push("jeden");
+    stos.push("dwa");
+    stos.push("trzy");
+    document.write('stos zawiera:' +stos+"<br>");
+    let usuniety=stos.pop();
+    document.write('usuniety element:' + usuniety+"<br>");
+    document.write('teraz stos zawiera:' +stos+"<br>");
+</script>
+
+funkcja splice
+<script>
+   var tablica = [1,2,3,4];
+   document.write('tablica zawiera:'+tablica +"<br>");
+   tablica.splice(1,2);
+   document.write('tablica zawiera:'+ tablica);
+</script>
+
+Jeżeli chcemy wsadzic elementy do tablicy funkcją splice to:
+-Pierwszym parametrem jest pozycja na którą wstawimy element 
+-Drugim parametrem jest 0
+-Kolejne parametry sa to kolejne wstawiane elementy 
+
+Jeżeli chcemy zamienic elementy przy uzyciu funkcji splice to pierwszym parametrem jest pozycja zamiany 
+Jezeli drugim parametrem jest liczba zamienianych elementow a nastepnie lista zamienianych elementow 
+
+Utwórz dwu elementową przy uzyciu funkcji splice dodaj 0 na pierwszą pozycje i 9 na ostatnią 

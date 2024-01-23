@@ -1,0 +1,12 @@
+Instrukcja warunkowa sluzy do warunkowego wykonywania instrukcji to znaczy instrukcje beda wykonane jezeli spelniony jest warunek 
+
+<script>
+    let odpowiedz=prompt('ile ksiezycow ma saturn');
+    if(odpowiedz ==31){
+alert('poprawna odpowiedz')}
+else{
+    alert('odpowiedz niepoprawna');
+}
+</script>
+
+Funkcja isNaN(tekst) sprawdza czy podany tekst nie jest liczba wtedy zwroci true w przeciwnym wypadku false 

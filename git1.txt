@@ -1,0 +1,21 @@
+Zdarzenia są to sytuacje występujące w trakcie korzystania ze strony internetowej 
+zapisaniu skryptu który obsługuje wykonaną czynność 
+najpopularniejsze zdarzenia
+blur kiedy obiekt przestaje byc aktywny
+change kiedy dany elemnet sie zmienia 
+<h1 onclick="changeText(this)">Kliknij w tekst</h1>
+<script>
+    function changeText(id)
+    {
+        id.innerHTML="Kliknąłeś w tekst";
+    }
+</script>
+dblclick podwójne klikniecie 
+focus 
+KeyDown klawisz wcisniety na klawiaturze 
+keyUp
+load
+mouseOver
+Mouseout
+resize
+submit
